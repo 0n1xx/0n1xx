@@ -4,6 +4,9 @@
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=0n1xx&theme=moltack&show_icons=true)
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=0n1xx&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
+
 
 ### Languages and Tools
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
