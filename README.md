@@ -4,8 +4,6 @@ ____
 
 Меня зовут Владислав,я из России и я Data Analyst :v:.
 
-![](https://komarev.com/ghpvc/?username=0n1xx-github-username&color=blueviolet)
-
 # Основные хард скилы :
 ____
 
@@ -42,3 +40,6 @@ ____
 
 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0n1xx&theme=monokai)
+
+![](https://komarev.com/ghpvc/?username=0n1xx-github-username&color=blueviolet)
+
