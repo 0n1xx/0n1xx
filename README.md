@@ -10,7 +10,6 @@ ____
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![SQL](http://img.shields.io/badge/-Sql-090909?style=for-the-badge&logo=mysql&logoColor=006488)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 [![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=0n1xx&langs_count=5&theme=synthwave)]()
