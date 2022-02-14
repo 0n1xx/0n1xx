@@ -19,7 +19,7 @@ ____
 [![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=0n1xx&langs_count=5&theme=synthwave)]()
 
 ### Математика :
-+ Умею применять статитстику в A/B тестах;
++ Умею применять статитстику в A/B тестах ;
 + Базовые консепты теории вероятности ;
 + Базовые знания линейной алгебры.
 
