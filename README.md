@@ -4,7 +4,7 @@ ____
 
 Меня зовут Владислав,я из России и я Data Analyst :v:.
 
-# Основные хард скилы :
+### Основные хард скилы :
 ____
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
