@@ -1,3 +1,5 @@
+![](https://github.com/0n1xx/0n1xx/blob/main/data_analyst.gif)
+
 ### Header
 
 Меня зовут Влад и я из России.Я Data Analyst и люблю всей душой свое дело так как оно позволяет мне применять статистические тесты на Python,а также работать с SQl.
