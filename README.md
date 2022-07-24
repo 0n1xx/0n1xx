@@ -54,6 +54,10 @@ SQL:
 - [Путь клиента. Создаем ценность продуктов и услуг через карты путей, блупринты и другие инструменты визуализации | Джим Калбах](https://www.ozon.ru/product/put-klienta-sozdaem-tsennost-produktov-i-uslug-cherez-karty-putey-bluprinty-i-drugie-472481696/?sh=7R__AoqU6A);
 - [Никаких правил. Уникальная культура Netflix | Рид Хастингс, Эрин Мейер](https://www.ozon.ru/product/nikakih-pravil-unikalnaya-kultura-netflix-poketbuk-529025421/?sh=7R__AvfNRA).
 
+Data Visualisation:
+- [Базовый курс по Tableau](https://tableau.pro/marathon42);
+- [Продвинутый курс по Tableau](https://tableau.pro/8steps).
+
 В процессе курсов у меня возникали ошибки, но это абсолютно нормально ошибаться, ведь тот, кто не ошибается - не учиться :)
 
 ### Мои социальные сети :
