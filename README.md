@@ -33,7 +33,7 @@ Karpov Courses:
 
 Статистика:
 - [Основы статистики I](https://stepik.org/course/76/syllabus);
-- [Основы стистики II](https://stepik.org/course/524/);
+- [Основы статистики II](https://stepik.org/course/524/);
 - [Введение в Data Science и машинное обучение](https://stepik.org/course/4852/syllabus);
 - [Доверительное A/B тестирование | Кохави Р., Тан Д., Сюй Я](https://www.ozon.ru/product/doveritelnoe-a-v-testirovanie-224221240/?sh=7R__An2VyA);
 - [Статистика для всех | Бослаф Сара](https://www.ozon.ru/product/statistika-dlya-vseh-217048648/?asb=0PEFX329sOTvehwtTm4PyYlp918o0VZODKcMIZQbV1Q%253D&asb2=LoXE769stVyTYwOY0D6Ij2yFqZ9jBDYNNDYw5WOoYUfiQpEwuKDjLDJzzMCSU2mH&keywords=%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0+%D0%B4%D0%BB%D1%8F+%D0%B2%D1%81%D0%B5%D1%85&sh=7R__AtlVTQ).
