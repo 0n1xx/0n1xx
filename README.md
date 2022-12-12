@@ -17,12 +17,6 @@ ____
 ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
-
-
-[![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=0n1xx&langs_count=5&theme=synthwave)]()
-
-
-
 ### Рекомендуемые курсы:
 ____
 Снизу будут курсы и книги, которые я сам проходил, список будет большой, но я уверен вы найдете для себя что-то интересное (также время от время я буду его дополнять):
