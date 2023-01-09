@@ -58,9 +58,7 @@ ____
 
 1. [Как изменились требования к Junior аналитикам данных](https://www.youtube.com/watch?v=l23LHX4G5iM&t=2s);
 
-2. [Решение тестового задания на знание Python](https://www.youtube.com/watch?v=O4hHKjM4Q64);
-
-3. [Решение тестового задания на знание SQL](https://www.youtube.com/watch?v=PrtBwbnp2MA).
+2. [Решение тестового задания на знание Python](https://www.youtube.com/watch?v=O4hHKjM4Q64).
 
 ### Мои социальные сети :
 ____
