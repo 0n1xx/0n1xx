@@ -23,7 +23,8 @@ ____
 
 Karpov Courses:
 - [Аналитик Данных](https://karpov.courses/analytics);
-- [Симулятор Аналитика](https://karpov.courses/simulator).
+- [Симулятор Аналитика](https://karpov.courses/simulator);
+- [Docker](https://karpov.courses/docker).
 
 Статистика:
 - [Основы статистики I](https://stepik.org/course/76/syllabus);
@@ -56,9 +57,7 @@ Data Visualisation:
 ### Мои лекции и статьи:
 ____
 
-1. [Как изменились требования к Junior аналитикам данных](https://www.youtube.com/watch?v=l23LHX4G5iM&t=2s);
-
-2. [Решение тестового задания на знание Python](https://www.youtube.com/watch?v=O4hHKjM4Q64).
+1. [Как изменились требования к Junior аналитикам данных](https://www.youtube.com/watch?v=l23LHX4G5iM&t=2s).
 
 ### Мои социальные сети :
 ____
