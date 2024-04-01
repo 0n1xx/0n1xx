@@ -18,6 +18,7 @@ ____
 Karpov Courses:
 - [Аналитик Данных](https://karpov.courses/analytics);
 - [Симулятор Аналитика](https://karpov.courses/simulator);
+- [Дата Инженер](https://karpov.courses/dataengineer);
 - [Docker](https://karpov.courses/docker).
 
 Статистика:
