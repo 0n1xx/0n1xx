@@ -1,7 +1,7 @@
 ### Preview:
 ____  
 Hey everyone! My name is Vlad. I worked as an analyst at Ozon Fintech for two-plus years and held DA/DE-related positions at Karpov Courses.  
-Since I was 19, I have been passionate about working with data. I have always found it exciting to answer my questions, whether by doing research or writing a query. I am studying "Computer Programming" at Georgian College to become a web developer. I think my analytical foundation and current studies will help me with creating interesting projects :)
+Since I was 17, I have been passionate about working with data. I have always found it exciting to answer my questions, whether by doing research or writing a query. I am studying "Computer Programming" at Georgian College to become a web developer. I think my analytical foundation and current studies will help me with creating interesting projects :)
 
 ### Used languages: 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
