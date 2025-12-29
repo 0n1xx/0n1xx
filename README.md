@@ -1,6 +1,6 @@
 # Hi, I'm Vlad Sakharov 👋
 
-I'm a **Data Analyst / Full-stack Developer ** with over two years of professional experience at **Ozon Fintech** and **Karpov Courses**, where I designed production data pipelines, conducted in-depth analyses, and delivered actionable insights to stakeholders.
+I'm a Data Analyst / Full-stack Developer with over two years of professional experience at **Ozon Fintech** and **Karpov Courses**, where I designed production data pipelines, conducted in-depth analyses, and delivered actionable insights to stakeholders.
 
 I've been passionate about data since I was 17 — turning raw information into clear answers through queries, automation, or visualization has always excited me.
 
