@@ -32,10 +32,9 @@ Currently studying **Computer Programming** at **Georgian College** (Ontario, Ca
 - **Spotify Listening History ETL** – Secure API integration (Spotipy), scheduled pipeline (Airflow), high-performance storage (ClickHouse), interactive dashboards (Superset).
 
 #### Web Development
-- - **SecretAgentGadgetLab** — ASP.NET Core MVC secret agent marketplace with Stripe payments, Cloudinary image storage, OAuth (Google & GitHub), role-based authorization, and full shopping cart. Deployed on Railway. [Live Demo](https://secret-agent-lab.up.railway.app)
+- **SecretAgentGadgetLab** — ASP.NET Core MVC secret agent marketplace with Stripe payments, Cloudinary image storage, OAuth (Google & GitHub), role-based authorization, and full shopping cart. Deployed on Railway. [Live Demo](https://secret-agent-lab.up.railway.app)
 - **iPod Marketplace** – Full-stack PHP/MySQL e-commerce platform with admin CRUD panel, user authentication, image uploads, and bilingual (English/French) interface.
-- **Sony Walkman Marketplace** – Responsive static site with detailed product pages, interactive features, and clean modular structure.
-
+  
 Explore the full collections:  
 - [DEV_pet_projects](https://github.com/0n1xx/DEV_pet_projects) – Web development portfolio  
 - [DS_pet_projects](https://github.com/0n1xx/DS_pet_projects) – Data science & engineering projects
