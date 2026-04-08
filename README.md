@@ -6,7 +6,7 @@ I've been passionate about data since I was 17 — turning raw information into 
 
 Currently studying **Computer Programming** at **Georgian College** (Ontario, Canada) to strengthen my full-stack development skills. Combining a strong analytical background with hands-on programming allows me to build complete, end-to-end solutions — from data ingestion to interactive web applications.
 
-### 🔧 Technologies & Tools
+## 🔧 Technologies & Tools
 ![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white) 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) 
@@ -25,12 +25,12 @@ Currently studying **Computer Programming** at **Georgian College** (Ontario, Ca
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-### 🚀 Featured Projects
+## 🚀 Featured Projects
 
-#### Data Engineering & Analytics
+### Data Engineering & Analytics
 - Currently working on a big project :)
 
-#### Web Development:
+### Web Development:
 ___
 
 **SecretAgentGadgetLab**  
@@ -40,7 +40,7 @@ Deployed on Railway. [Live Demo](https://secret-agent-lab.up.railway.app)
 _Improvements in progress:_  
 - Refining UI/UX of create and edit pages  
 - Improving image handling during edit workflows  
-- Enhancing document update features (e.g., passport and related data)  
+- Enhancing document update features (e.g., password and related data)  
 
 **iPod Marketplace**  
 Full-stack PHP/MySQL e-commerce platform with admin CRUD panel, user authentication, image uploads, and bilingual (English/French) interface.  
