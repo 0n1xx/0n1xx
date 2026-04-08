@@ -28,8 +28,7 @@ Currently studying **Computer Programming** at **Georgian College** (Ontario, Ca
 ### 🚀 Featured Projects
 
 #### Data Engineering & Analytics
-- **Moscow Apartment Listings Pipeline** – Web scraping (BeautifulSoup), data cleaning (Pandas), analytical storage (ClickHouse), orchestration (Airflow), and real-time Telegram notifications. Fully containerized with Docker.
-- **Spotify Listening History ETL** – Secure API integration (Spotipy), scheduled pipeline (Airflow), high-performance storage (ClickHouse), interactive dashboards (Superset).
+- Currently working on a big project :)
 
 #### Web Development:
 ___
@@ -52,11 +51,6 @@ _Improvements in progress:_
 - Resolving full name vs username display inconsistencies  
 - Optimizing description rendering and layout  
 - Enhancing admin panel UI and usability  
-
-  
-Explore the full collections:  
-- [DEV_pet_projects](https://github.com/0n1xx/DEV_pet_projects) – Web development portfolio  
-- [DS_pet_projects](https://github.com/0n1xx/DS_pet_projects) – Data science & engineering projects
 
 ### 📢 Content & Community
 - YouTube: [How Requirements for Junior Data Analysts Changed](https://www.youtube.com/watch?v=l23LHX4G5iM&t=2s)
