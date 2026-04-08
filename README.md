@@ -31,9 +31,28 @@ Currently studying **Computer Programming** at **Georgian College** (Ontario, Ca
 - **Moscow Apartment Listings Pipeline** – Web scraping (BeautifulSoup), data cleaning (Pandas), analytical storage (ClickHouse), orchestration (Airflow), and real-time Telegram notifications. Fully containerized with Docker.
 - **Spotify Listening History ETL** – Secure API integration (Spotipy), scheduled pipeline (Airflow), high-performance storage (ClickHouse), interactive dashboards (Superset).
 
-#### Web Development
-- **SecretAgentGadgetLab** — ASP.NET Core MVC secret agent marketplace with Stripe payments, Cloudinary image storage, OAuth (Google & GitHub), role-based authorization, and full shopping cart. Deployed on Railway. [Live Demo](https://secret-agent-lab.up.railway.app)
-- **iPod Marketplace** – Full-stack PHP/MySQL e-commerce platform with admin CRUD panel, user authentication, image uploads, and bilingual (English/French) interface.
+#### Web Development:
+___
+
+**SecretAgentGadgetLab**  
+ASP.NET Core MVC secret agent marketplace with Stripe payments, Cloudinary image storage, OAuth (Google & GitHub), role-based authorization, and full shopping cart.  
+Deployed on Railway. [Live Demo](https://secret-agent-lab.up.railway.app)
+
+_Improvements in progress:_  
+- Refining UI/UX of create and edit pages  
+- Improving image handling during edit workflows  
+- Enhancing document update features (e.g., passport and related data)  
+
+**iPod Marketplace**  
+Full-stack PHP/MySQL e-commerce platform with admin CRUD panel, user authentication, image uploads, and bilingual (English/French) interface.  
+Deployed on Railway. [Live Demo](https://ipod-marketplace.up.railway.app)
+
+_Improvements in progress:_  
+- Improving navigation bar responsiveness and layout  
+- Resolving full name vs username display inconsistencies  
+- Optimizing description rendering and layout  
+- Enhancing admin panel UI and usability  
+
   
 Explore the full collections:  
 - [DEV_pet_projects](https://github.com/0n1xx/DEV_pet_projects) – Web development portfolio  
