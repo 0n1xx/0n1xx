@@ -50,7 +50,8 @@ _Improvements in progress:_
 - Improving navigation bar responsiveness and layout  
 - Resolving full name vs username display inconsistencies  
 - Optimizing description rendering and layout  
-- Enhancing admin panel UI and usability  
+- Enhancing admin panel UI and usability
+- Rewriting the project using Go and React
 
 ### 📢 Content & Community
 - YouTube: [How Requirements for Junior Data Analysts Changed](https://www.youtube.com/watch?v=l23LHX4G5iM&t=2s)
