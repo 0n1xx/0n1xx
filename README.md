@@ -37,21 +37,9 @@ ___
 ASP.NET Core MVC secret agent marketplace with Stripe payments, Cloudinary image storage, OAuth (Google & GitHub), role-based authorization, and full shopping cart.  
 Deployed on Railway. [Live Demo](https://secret-agent-lab.up.railway.app)
 
-_Improvements in progress:_  
-- Refining UI/UX of create and edit pages  
-- Improving image handling during edit workflows  
-- Enhancing document update features (e.g., password and related data)  
-
 **iPod Marketplace**  
 Full-stack PHP/MySQL e-commerce platform with admin CRUD panel, user authentication, image uploads, and bilingual (English/French) interface.  
 Deployed on Railway. [Live Demo](https://ipod-marketplace.up.railway.app)
-
-_Improvements in progress:_  
-- Improving navigation bar responsiveness and layout  
-- Resolving full name vs username display inconsistencies  
-- Optimizing description rendering and layout  
-- Enhancing admin panel UI and usability
-- Rewriting the project using Go and React
 
 ### 📢 Content & Community
 - YouTube: [How Requirements for Junior Data Analysts Changed](https://www.youtube.com/watch?v=l23LHX4G5iM&t=2s)
