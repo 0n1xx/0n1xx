@@ -34,12 +34,13 @@ Currently studying **Computer Programming** at **Georgian College** (Ontario, Ca
 ___
 
 **SecretAgentGadgetLab**  
-ASP.NET Core MVC secret agent marketplace with Stripe payments, Cloudinary image storage, OAuth (Google & GitHub), role-based authorization, and full shopping cart.  
-Deployed on Railway. [Live Demo](https://secret-agent-lab.up.railway.app)
+- ASP.NET Core MVC secret agent marketplace with Stripe payments, Cloudinary image storage, OAuth (Google & GitHub), role-based authorization, and full shopping cart. Deployed on Railway. [Live Demo](https://secret-agent-lab.up.railway.app)
 
 **iPod Marketplace**  
-Full-stack PHP/MySQL e-commerce platform with admin CRUD panel, user authentication, image uploads, and bilingual (English/French) interface.  
-Deployed on Railway. [Live Demo](https://ipod-marketplace.up.railway.app)
+- Full-stack PHP/MySQL e-commerce platform with admin CRUD panel, user authentication, image uploads, and bilingual (English/French) interface. Deployed on Railway. [Live Demo](https://ipod-marketplace.up.railway.app)
+
+**Business Lead Finder**
+- A tool to find local businesses without websites for outreach. Built with FastAPI + React + Google Places API. Deployed on Railway. [Live Demo](https://businessleadfinderfrontend-production.up.railway.app)
 
 ### 📢 Content & Community
 - YouTube: [How Requirements for Junior Data Analysts Changed](https://www.youtube.com/watch?v=l23LHX4G5iM&t=2s)
