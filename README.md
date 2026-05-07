@@ -1,9 +1,6 @@
 # Hi, I'm Vlad Sakharov 👋
-
 I'm a Data Analyst / Full-stack Developer with over two years of professional experience at **Ozon Fintech** and **Karpov Courses**, where I designed production data pipelines, conducted in-depth analyses, and delivered actionable insights to stakeholders.
-
 I've been passionate about data since I was 17 — turning raw information into clear answers through queries, automation, or visualization has always excited me.
-
 Currently studying **Computer Programming** at **Georgian College** (Ontario, Canada) to strengthen my full-stack development skills. Combining a strong analytical background with hands-on programming allows me to build complete, end-to-end solutions — from data ingestion to interactive web applications.
 
 ## 🔧 Technologies & Tools
@@ -28,9 +25,27 @@ Currently studying **Computer Programming** at **Georgian College** (Ontario, Ca
 ## 🚀 Featured Projects
 
 ### Data Engineering & Analytics
-- Currently working on a big project :)
 
-### Web Development:
+___
+
+**Statify — Personal Spotify Analytics Platform**
+
+[![Live](https://img.shields.io/badge/Live-spotifystatistics--production.up.railway.app-1DB954?style=flat-square&logo=railway&logoColor=white)](https://spotifystatistics-production.up.railway.app)
+[![Repo](https://img.shields.io/badge/GitHub-SpotifyStatistics-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/0n1xx/SpotifyStatistics)
+[![Platform](https://img.shields.io/badge/Platform-Web%20%7C%20iOS-1DB954?style=flat-square)](#)
+
+End-to-end analytics platform that continuously ingests Spotify listening history, enriches each track with geographic artist metadata via MusicBrainz, and surfaces insights across a web dashboard and a native iOS app.
+
+- **Data pipeline** — Apache Airflow DAG runs every 3 minutes: fetches last 50 played tracks per user, resolves artist country/city via MusicBrainz, deduplicates by `played_at + user_id`, writes to ClickHouse (analytics) and SQL Server (web app)
+- **Web app** — ASP.NET Core 10 + Razor Pages: Dashboard, Recently Played (paginated), World Map (D3.js), full account management, Spotify/Google/GitHub OAuth, transactional email via Resend on `statify.one`
+- **iOS app** — Native SwiftUI companion with full feature parity: Dashboard, History, World Map (MapKit), Settings — connects to the same ASP.NET backend via JWT REST API
+- **Admin dashboard** — Apache Superset connected directly to ClickHouse: KPI cards, activity charts, top artists/albums/songs, word cloud, raw history table
+- **Infrastructure** — All services deployed on Railway; Airflow and Superset run on custom Docker images purpose-built for Railway's environment
+
+**Stack:** Python · Apache Airflow · ClickHouse · SQL Server · ASP.NET Core C# · Vanilla JS · D3.js · Swift · SwiftUI · Docker · Railway
+
+### Web Development
+
 ___
 
 **SecretAgentGadgetLab**  
