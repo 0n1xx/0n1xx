@@ -61,6 +61,7 @@ ___
 - YouTube: [How Requirements for Junior Data Analysts Changed](https://www.youtube.com/watch?v=l23LHX4G5iM&t=2s)
 
 ### 🌐 Connect with Me
+[![Portfolio](https://img.shields.io/badge/Portfolio-vladislavsakharov.com-000000?style=for-the-badge&logo=safari&logoColor=white)](https://vladislavsakharov.com/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vladislav-sakharov-8191b2242/)
 
 ### 📊 GitHub Stats
