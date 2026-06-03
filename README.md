@@ -30,7 +30,7 @@ ___
 
 **Statify — Personal Spotify Analytics Platform**
 
-[![Live](https://img.shields.io/badge/Live-statify.one-1DB954?style=flat-square&logo=railway&logoColor=white)](https://statify.one/)
+[![Live](https://img.shields.io/badge/Live-statify.one-1DB954?style=flat-square&logo=railway&logoColor=white)](https://spotifystatistics-production.up.railway.app/)
 [![Repo](https://img.shields.io/badge/GitHub-SpotifyStatistics-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/0n1xx/SpotifyStatistics)
 [![Platform](https://img.shields.io/badge/Platform-Web%20%7C%20iOS-1DB954?style=flat-square)](#)
 
