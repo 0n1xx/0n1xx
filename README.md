@@ -36,13 +36,13 @@ ___
 
 End-to-end analytics platform that continuously ingests Spotify listening history, enriches each track with geographic artist metadata via MusicBrainz, and surfaces insights across a web dashboard and a native iOS app.
 
-- **Data pipeline** — Apache Airflow DAG runs every 3 minutes: fetches last 50 played tracks per user, resolves artist country/city via MusicBrainz, deduplicates by `played_at + user_id`, writes to ClickHouse (analytics) and SQL Server (web app)
+- **Data pipeline** — Apache Airflow DAG runs every 3 minutes: fetches last 50 played tracks per user, resolves artist country/city via MusicBrainz, deduplicates by `played_at + user_id`, writes to PostgreSQL (analytics) and SQL Server (web app)
 - **Web app** — ASP.NET Core 10 + Razor Pages: Dashboard, Recently Played (paginated), World Map (D3.js), full account management, Spotify/Google/GitHub OAuth, transactional email via Resend on `statify.one`
 - **iOS app** — Native SwiftUI companion with full feature parity: Dashboard, History, World Map (MapKit), Settings — connects to the same ASP.NET backend via JWT REST API
-- **Admin dashboard** — Apache Superset connected directly to ClickHouse: KPI cards, activity charts, top artists/albums/songs, word cloud, raw history table
+- **Admin dashboard** — Apache Superset connected directly to PostgreSQL: KPI cards, activity charts, top artists/albums/songs, word cloud, raw history table
 - **Infrastructure** — All services deployed on Railway; Airflow and Superset run on custom Docker images purpose-built for Railway's environment
 
-**Stack:** Python · Apache Airflow · ClickHouse · SQL Server · ASP.NET Core C# · Vanilla JS · D3.js · Swift · SwiftUI · Docker · Railway
+**Stack:** Python · Apache Airflow · PostgreSQL · SQL Server · ASP.NET Core C# · Vanilla JS · D3.js · Swift · SwiftUI · Docker · Railway
 
 ### Web Development
 
