@@ -28,6 +28,23 @@ Currently studying **Computer Programming** at **Georgian College** (Ontario, Ca
 
 ___
 
+**Jobs Canada — Canadian Labour Market Dashboard**
+
+[![Tableau](https://img.shields.io/badge/Tableau%20Public-Jobs%20Canada-E97627?style=flat-square&logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/YOUR_PROFILE/viz/JobsCanada/JobsCanada)
+[![Repo](https://img.shields.io/badge/GitHub-CanadaJobsPipeline-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/vladsakharov/CanadaJobsPipeline)
+[![Data](https://img.shields.io/badge/Data-Job%20Bank%20Open%20Data-006488?style=flat-square)](#)
+
+End-to-end analytics project on the Canadian labour market: monthly Job Bank open data is ingested via an Airflow DAG into PostgreSQL, then visualized in an interactive Tableau Public dashboard covering **423K+ vacancies** (Jan–May 2026).
+
+- **Data pipeline** — Airflow DAG `jobbank_vacancies` runs monthly: resolves the current CSV URL via CKAN API, downloads UTF-16LE tab-separated files (~30–40 MB), cleans 14 fields from 65 columns, upserts into PostgreSQL with `ON CONFLICT DO UPDATE`
+- **Tableau dashboard** — KPI cards with sparklines (total vacancies, latest month + MoM, median pay, on-site %), monthly trend with dual axis (bars + MoM %), Top 20 NOC bar chart, province map with Wikipedia drill-down, paginated detail table with Job Bank links
+- **Analytics layer** — Calculated fields (salary normalization, smart K/M labels), LOD expressions for filter-responsive KPIs, table calculations for MoM and pagination, parameters, dashboard URL actions
+- **Guided flow** — Overview KPIs → monthly trend → top occupations → regional map → job-level detail table with external links
+
+**Stack:** · Tableau · Apache Airflow · PostgreSQL · Python
+
+___
+
 **Statify — Personal Spotify Analytics Platform**
 
 [![Live](https://img.shields.io/badge/Live-statify.one-1DB954?style=flat-square&logo=railway&logoColor=white)](https://spotifystatistics-production.up.railway.app/)
