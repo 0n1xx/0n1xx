@@ -81,10 +81,6 @@ ___
 [![Portfolio](https://img.shields.io/badge/Portfolio-vladislavsakharov.com-000000?style=for-the-badge&logo=safari&logoColor=white)](https://vladislavsakharov.com/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vladislav-sakharov-8191b2242/)
 
-### 📊 GitHub Stats
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0n1xx&theme=monokai" alt="Profile Details" />
-<img src="https://komarev.com/ghpvc/?username=0n1xx&color=blueviolet" alt="Profile Views" />
-
 Thanks for visiting! I'm always open to discussing data engineering, web development, or potential opportunities.
 
 — Vlad
