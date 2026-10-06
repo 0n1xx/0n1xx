@@ -7,16 +7,18 @@ Currently studying **Computer Programming** at **Georgian College** (Ontario, Ca
 ![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white) 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) 
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) 
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) 
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) 
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
 ![SQL](https://img.shields.io/badge/SQL-006488?style=for-the-badge&logo=mysql&logoColor=white) 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
+![ASP.NET](https://img.shields.io/badge/ASP.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 
 **Data & Orchestration Tools**  
 ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white) 
 ![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC00?style=for-the-badge&logo=clickhouse&logoColor=black) 
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white) 
 ![Apache Superset](https://img.shields.io/badge/Apache%20Superset-66CED6?style=for-the-badge&logo=apache-superset&logoColor=white) 
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white) 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) 
@@ -41,7 +43,7 @@ End-to-end analytics project on the Canadian labour market: monthly Job Bank ope
 - **Analytics layer** — Calculated fields (salary normalization, smart K/M labels), LOD expressions for filter-responsive KPIs, table calculations for MoM and pagination, parameters, dashboard URL actions
 - **Guided flow** — Overview KPIs → monthly trend → top occupations → regional map → job-level detail table with external links
 
-**Stack:** · Tableau · Apache Airflow · PostgreSQL · Python
+**Stack:** Python · Apache Airflow · PostgreSQL · Pandas · Tableau Public · Job Bank Open Data (open.canada.ca)
 
 ___
 
@@ -80,6 +82,9 @@ ___
 ### 🌐 Connect with Me
 [![Portfolio](https://img.shields.io/badge/Portfolio-vladislavsakharov.com-000000?style=for-the-badge&logo=safari&logoColor=white)](https://vladislavsakharov.com/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vladislav-sakharov-8191b2242/)
+
+### 📊 GitHub Stats
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0n1xx&theme=monokai" alt="Profile Details" />
 
 Thanks for visiting! I'm always open to discussing data engineering, web development, or potential opportunities.
 
