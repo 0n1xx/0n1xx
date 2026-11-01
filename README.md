@@ -1,17 +1,18 @@
 # Hi, I'm Vlad Sakharov 👋
 I'm a Data Analyst / Full-stack Developer with over two years of professional experience at **Ozon Fintech** and **Karpov Courses**, where I designed production data pipelines, conducted in-depth analyses, and delivered actionable insights to stakeholders.
 I've been passionate about data since I was 17 — turning raw information into clear answers through queries, automation, or visualization has always excited me.
-Currently studying **Computer Programming** at **Georgian College** (Ontario, Canada) to strengthen my full-stack development skills. Combining a strong analytical background with hands-on programming allows me to build complete, end-to-end solutions — from data ingestion to interactive web applications.
+Currently studying **Computer Programming** at **Georgian College** (Ontario, Canada) to strengthen my full-stack development skills. Combining a strong analytical background with hands-on programming allows me to build complete, end-to-end solutions — from data ingestion to interactive web applications. Most recently I picked up **Go** and built [Soundcheck](https://getsoundcheck.cc), a concert-alert service, in a week.
 
 ## 🔧 Technologies & Tools
-![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white) 
+![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) 
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) 
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![SQL](https://img.shields.io/badge/SQL-006488?style=for-the-badge&logo=mysql&logoColor=white) 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
@@ -65,18 +66,55 @@ End-to-end analytics platform that continuously ingests Spotify listening histor
 
 **Stack:** Python · Apache Airflow · PostgreSQL · SQL Server · ASP.NET Core C# · Vanilla JS · D3.js · Swift · SwiftUI · Docker · Railway
 
-### Web Development
+### Full-Stack & Backend Development
 
 ___
 
-**SecretAgentGadgetLab**  
-- ASP.NET Core MVC secret agent marketplace with Stripe payments, Cloudinary image storage, OAuth (Google & GitHub), role-based authorization, and full shopping cart. Deployed on Railway. [Live Demo](https://secret-agent-lab.up.railway.app)
+**Soundcheck — Concert Alerts for Your Favourite Artists**
 
-**iPod Marketplace**  
-- Full-stack PHP/MySQL e-commerce platform with admin CRUD panel, user authentication, image uploads, and bilingual (English/French) interface. Deployed on Railway. [Live Demo](https://ipod-marketplace.up.railway.app)
+[![Live](https://img.shields.io/badge/Live-getsoundcheck.cc-3A7BD5?style=flat-square&logo=railway&logoColor=white)](https://getsoundcheck.cc)
+[![Repo](https://img.shields.io/badge/GitHub-Soundcheck-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/0n1xx/Soundcheck)
+[![Go](https://img.shields.io/badge/Built%20with-Go-00ADD8?style=flat-square&logo=go&logoColor=white)](#)
 
-**Business Lead Finder**
-- A tool to find local businesses without websites for outreach. Built with FastAPI + React + Google Places API. Deployed on Railway. [Live Demo](https://businessleadfinderfrontend-production.up.railway.app)
+A Go web service that watches Ticketmaster for the artists you follow and alerts you by email or Telegram when they announce a show in your city, before tickets go on sale, and when a show is cancelled or moved. Built in a week to learn Go, using the standard library for HTTP, templates and OAuth.
+
+- **Background worker** — goroutines with `errgroup` check followed artists in parallel (5 at a time), a `rate.Limiter` stays under Ticketmaster's 5 requests/s, two `time.Ticker`s run a full scan every 3 hours and a reminder scan every minute; graceful shutdown through `context` on SIGTERM
+- **Change detection** — each concert is stored once per Ticketmaster ID; every save reports *new*, *status changed* or *rescheduled*, and that drives the alerts
+- **Notifications** — one `Notifier` interface with Telegram (Bot API, long polling to link accounts via `/start`) and email (Resend) implementations; a `sent_alerts` table makes sure no alert is ever sent twice; on-sale reminders 24 h and 15 min ahead, shown in the venue's local time zone
+- **Web app** — `net/http` routing with method patterns, `html/template` + `embed`, classic Mac OS X Finder–style UI; sessions with hashed tokens, bcrypt passwords, Google OAuth written from scratch, account settings, security headers and server timeouts
+- **Infrastructure** — PostgreSQL via `pgx` in its own schema on a shared instance, migrations on startup, multi-stage Docker build, deployed on Railway with a custom domain
+
+**Stack:** Go · net/http · html/template · pgx · PostgreSQL · errgroup · Ticketmaster API · Telegram Bot API · Resend · Google OAuth · Docker · Railway
+
+___
+
+**SecretAgentGadgetLab — Spy Gadget Marketplace**
+
+[![Live](https://img.shields.io/badge/Live-secret--agent--lab-512BD4?style=flat-square&logo=railway&logoColor=white)](https://secret-agent-lab.up.railway.app)
+
+ASP.NET Core MVC marketplace for a fictional secret-agent gadget shop.
+
+- **Payments** — Stripe checkout with a full shopping cart
+- **Auth** — Google & GitHub OAuth with role-based authorization
+- **Media** — product images stored in Cloudinary
+- Deployed on Railway
+
+**Stack:** C# · ASP.NET Core MVC · Stripe · Cloudinary · OAuth · Railway
+
+___
+
+**iPod Marketplace — E-commerce Platform**
+
+[![Live](https://img.shields.io/badge/Live-ipod--marketplace-777BB4?style=flat-square&logo=railway&logoColor=white)](https://ipod-marketplace.up.railway.app)
+
+Full-stack PHP/MySQL e-commerce store.
+
+- **Admin panel** — CRUD for products with image uploads
+- **Users** — registration and authentication
+- **Bilingual** — English and French interface
+- Deployed on Railway
+
+**Stack:** PHP · MySQL · HTML · CSS · JavaScript · Railway
 
 ### 📢 Content & Community
 - YouTube: [How Requirements for Junior Data Analysts Changed](https://www.youtube.com/watch?v=l23LHX4G5iM&t=2s)
