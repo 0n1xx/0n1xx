@@ -89,7 +89,7 @@ ___
 
 **SecretAgentGadgetLab — Spy Gadget Marketplace**
 
-[![Live](https://img.shields.io/badge/Live-secret--agent--lab-512BD4?style=flat-square&logo=railway&logoColor=white)](https://secret-agent-lab.up.railway.app)
+[![Live](https://img.shields.io/badge/Live-secret--agent--lab-512BD4?style=flat-square&logo=railway&logoColor=white)](https://secretagentlab.store/)
 
 ASP.NET Core MVC marketplace for a fictional secret-agent gadget shop.
 
