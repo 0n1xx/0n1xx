@@ -104,7 +104,7 @@ ___
 
 **iPod Marketplace — E-commerce Platform**
 
-[![Live](https://img.shields.io/badge/Live-ipod--marketplace-777BB4?style=flat-square&logo=railway&logoColor=white)](https://ipod-marketplace.up.railway.app)
+[![Live](https://img.shields.io/badge/Live-ipod--marketplace-777BB4?style=flat-square&logo=railway&logoColor=white)](https://quebecipod.site/index.php?lang=en)
 
 Full-stack PHP/MySQL e-commerce store.
 
